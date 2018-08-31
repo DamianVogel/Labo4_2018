@@ -1,0 +1,48 @@
+-Ver como se crean componentes.
+-Ver como se comporta el modulo.
+
+
+
+
+
+
+INDEX
+	HEAD
+		-Base href en index corre la aplicacion en tag head.
+
+
+	BODY
+		VA APP-ROOT <-- TAG corresponde a carpeta app.
+
+
+
+
+
+ANGULAR
+
+	APP
+	
+		MODULE TS
+			*se importan desde diferentes modulos y se indica que 
+		
+			@NG MODULE
+			import y provider importan bibliotecas
+			
+		COMPONENT TS
+			Se define que se pude hacer en el componente
+			
+			@Component 
+				-Se puede tomar el desde web
+				-Se puede declarar con codigo
+				
+		COMPONENT CSS
+			estilo
+			
+		COMPONENT HTML
+		
+		COMPONENT SPEC TS
+			TEST
+			
+			
+			
+			
