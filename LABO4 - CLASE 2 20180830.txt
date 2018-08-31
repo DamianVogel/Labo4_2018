@@ -1,5 +1,33 @@
+-TRAER JUEGO
+	QUE SE PUEDA NAVEGAR
+	RUTEO TIENE QUE FUNCIONAR
+
+
 -Ver como se crean componentes.
+	ng generate component name_component
+
+
 -Ver como se comporta el modulo.
+
+-Ver ciclo de vida io
+	-Eventos
+	-Propiedades
+	-Variables
+
+PWA -> ¿QUE ES?
+	
+PROBAR PROBAR ROUTER OUTLET	
+	
+COMO RUTEAR
+
+
+se declara
+const miRuteo = corchetes { path:'nombredelpath', component : NombreDelComponent } corchetes;
+
+se agrega en el ngmodule en imports
+
+en app.component.html se agrega<router-outlet>
+
 
 
 
@@ -44,5 +72,6 @@ ANGULAR
 			TEST
 			
 			
-			
+SOBRE LA CREACION DE COMPONENTES
+		nGOnInit <-- CICLO DE VIDA
 			
