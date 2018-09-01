@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { PruebaComponenteComponent } from './componentes/prueba-componente/prueba-componente.component';
 
@@ -17,7 +18,8 @@ const miRuteo = [{path:'prueba', component: PruebaComponenteComponent}
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(miRuteo)
   ],
   providers: [],
   bootstrap: [AppComponent]

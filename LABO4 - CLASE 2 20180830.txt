@@ -3,10 +3,6 @@
 	RUTEO TIENE QUE FUNCIONAR
 
 
--Ver como se crean componentes.
-	ng generate component name_component
-
-
 -Ver como se comporta el modulo.
 
 -Ver ciclo de vida io
@@ -17,12 +13,15 @@
 PWA -> ¿QUE ES?
 	
 PROBAR PROBAR ROUTER OUTLET	
+
+
+
+
+ANOTACIONES CLASE 2
 	
 COMO RUTEAR
-
-
-se declara
-const miRuteo = corchetes { path:'nombredelpath', component : NombreDelComponent } corchetes;
+	-Se declara 
+		const miRuteo = corchetes { path:'nombredelpath', component : NombreDelComponent } corchetes;
 
 se agrega en el ngmodule en imports
 
