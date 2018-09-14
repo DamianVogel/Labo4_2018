@@ -47,6 +47,48 @@ audio:not([controls]) {
 [hidden],
 template {
   display: none;
+}html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
 }
 
 a {
@@ -310,8 +352,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../componentes/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 .glyphicon {
   position: relative;
