@@ -1,8 +1,9 @@
 TP:
-    -PROBAR RUTEO EN PROD.
-    -LOGICA DE JUEGO.
     -CORREGIR JUEGOS.
+    -LOGICA DE JUEGO.
     -LOGIN
+    -PROBAR RUTEO EN PROD.
+        info: https://github.com/angular-schule/angular-cli-ghpages   
     -BACK END
 
 
@@ -11,8 +12,6 @@ PRACTICAR:
     -INPUT OUTPUT
     -NGMODEL <- para que sirve
     -NGFOR <- para que sirve
-
-
 
 
 ¿COMO RUTEAR?
