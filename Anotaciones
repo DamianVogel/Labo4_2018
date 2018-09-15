@@ -1,0 +1,58 @@
+TP:
+    -PROBAR RUTEO EN PROD.
+    -LOGICA DE JUEGO.
+    -CORREGIR JUEGOS.
+    -LOGIN
+    -BACK END
+
+
+PRACTICAR:
+    -RUTEAR
+    -INPUT OUTPUT
+    -NGMODEL <- para que sirve
+    -NGFOR <- para que sirve
+
+
+
+
+¿COMO RUTEAR?
+    -COLOCAR EL ROUTER OUTLET  EN app.component.html 
+        <router-outlet></router-outlet>                 <---- No lo tengo claro.
+    
+    -SE DEBE IMPORTAR EN EL MODULO PRINCIPAL EN app.module.ts
+        import { RouterModule } from '@angular/router';
+    
+    -DECLARACION DE LAS RUTAS EN app.module.ts
+        const miRuteo = [{path:'pruebaRuteo', component:RuteandoComponent}]
+
+    -DENTRO DE NgModule:
+    
+        @NgModule({
+            declarations: [
+            AppComponent,
+            TemaComponent,
+            CuestionarioComponent,
+            PreguntaComponent,
+            RuteandoComponent
+            ],
+   
+        imports: [
+            BrowserModule,
+            FormsModule,
+            RouterModule.forRoot(miRuteo),        <---- DECLARACION DEL ROOTEO.
+            ],
+
+        exports: [
+            RouterModule                          <---- NO SE SI ES NECESARIO. 
+            ],
+
+        providers: [],
+        bootstrap: [AppComponent]
+        })
+        export class AppModule { }
+    
+    -EN LOS COMPONENTES nombredelcomponent.component.html PARA LINKEAR A OTRO COMPONENTE SE UTILIZA routerLink DENTRO DEL TAG:
+        <a routerLink='/pruebaRuteo'> Link </a>
+
+
+
