@@ -60,3 +60,36 @@ PRACTICAR:
 
 
 
+
+
+20/09
+    AJAX
+    
+    llamada asincronada
+        4 posibilidades
+            que vuelva
+            que no vuelva
+            correcta
+            incorrecta
+
+En angular existe http 
+
+
+Crear servicio. Integro para toda la apicacion.
+Cuando se le pega a un servicio, este servicio se divide en una ruta y segun lo que vemos por la api rest
+
+
+SERVICIO 1 SABE LA api
+SERVICIO 2 APUNTA A LA FUNCION
+SERVICIO 3 APUNTA A OTRA FUNCION
+
+UTILIZAR TRABAJO PRACTICO PARA EL BACKEND
+
+TERMINAR ADIVINA EL numero
+
+INPUT OUTPUT
+ABM
+SERVICIO
+API rest
+
+    
