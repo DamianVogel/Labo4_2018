@@ -1,5 +1,8 @@
 TP:
     -CORREGIR JUEGOS.
+        -Velocidad Aritmetica OK.
+        -Piedra Papel y Tijeta.
+        -Adivina el numero.
     -LOGICA DE JUEGO.
     -LOGIN
     -PROBAR RUTEO EN PROD.
