@@ -1,16 +1,22 @@
 TP:
     -CORREGIR JUEGOS.
         -Velocidad Aritmetica OK.
+        -Adivina el numero OK.
+        -Anagrama.
         -Piedra Papel y Tijeta.
-        -Adivina el numero.
+        -Juego Propio.
+
     -LOGICA DE JUEGO.
     -LOGIN
     -PROBAR RUTEO EN PROD.
         -CONTROLAR DESDE EL CODIGO COMO MENU-CARD
         info: https://github.com/angular-schule/angular-cli-ghpages   
         info: https://academia-binaria.com/paginas-y-rutas-angular-spa/
+    
     -SERVICIOS
-    -BACK END
+    
+    -BACK END / LOCAL STORAGE
+    
     -VENTANAS MODALES
     
 
