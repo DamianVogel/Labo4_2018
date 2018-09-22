@@ -9,8 +9,10 @@ TP:
         -CONTROLAR DESDE EL CODIGO COMO MENU-CARD
         info: https://github.com/angular-schule/angular-cli-ghpages   
         info: https://academia-binaria.com/paginas-y-rutas-angular-spa/
+    -SERVICIOS
     -BACK END
     -VENTANAS MODALES
+    
 
 
 PRACTICAR:
@@ -60,9 +62,58 @@ PRACTICAR:
         <a routerLink='/pruebaRuteo'> Link </a>
 
 
+¿COMO REALIZAR SERVICIOS?
+    -IMPORTAR EN app.module.ts
+        import { HttpModule } from '@angular/http';
+
+
+    -COLOCAR DENTRO DEL NgModule
+
+    -DENTRO DEL COMPONENTE (SERVICIO) HAY QUE IMPORTAR:
+        import { Injectable } from '@angular/core';
+        import {Http ,Response} from '@angular/http';
+        import { catchError, map, tap } from 'rxjs/operators';
+        import { Observable, Subject } from 'rxjs';
+
+    -DENTRO DEL COMPONENTE (SERVICIO) UTLIZAR EL DECORADOR INJECTABLE:
+        @Injectable()
+
+    -DENTRO DEL CONSTRUCTOR DEL COMPONENTE (SERVICIO) INJECTAR EL SERVICIO HTTP:
+        constructor(
+            public _http : Http
+        ){}
+
+    *INFO EXTRA:
+        -WEB PARA SIMULAR PETICIONES.
+            reqres.in
+
+    -IMPORTAR EN EL COMPONENT DONDE SE CONSUMIRA EL SERVICIO 
+        import { nombreDelServicio } from '../rutaDel/servicio.service';
+
+    -DENTRO DEL COMPONENTE AGREGARLO COMO PROVIDER
+        @Component({
+            providers: [nombreDelServicio]
+        })
+
+    -DENTRO DEL COMPONENT INYECTARLO EN EL constructor
+        constructor(
+            public _http : Http
+        ){}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ANOTACIONES
 20/09
     AJAX
     
@@ -73,24 +124,32 @@ PRACTICAR:
             correcta
             incorrecta
 
-En angular existe http 
 
 
-Crear servicio. Integro para toda la apicacion.
-Cuando se le pega a un servicio, este servicio se divide en una ruta y segun lo que vemos por la api rest
+*En angular existe http 
+
+Concepto
+    -Crear servicio. Integro para toda la apicacion.
+    -Cuando se le pega a un servicio, este servicio se divide en una ruta y segun lo que vemos por la api rest
+
+    SERVICIO 1 SABE LA API
+    SERVICIO 2 APUNTA A LA FUNCION
+    SERVICIO 3 APUNTA A OTRA FUNCION
+
+TEMAS PARA EL PRIMER PARCIAL
+    INPUT OUTPUT
+    ABM
+    SERVICIO
+    API rest
 
 
-SERVICIO 1 SABE LA api
-SERVICIO 2 APUNTA A LA FUNCION
-SERVICIO 3 APUNTA A OTRA FUNCION
 
-UTILIZAR TRABAJO PRACTICO PARA EL BACKEND
 
-TERMINAR ADIVINA EL numero
 
-INPUT OUTPUT
-ABM
-SERVICIO
-API rest
+
+
+
+
 
     
+
