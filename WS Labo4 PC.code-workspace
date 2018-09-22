@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\Programacion-3-2017"
+		},
+		{
+			"path": "D:\\Mis Documentos\\GitHub\\TP_LAV4_2017"
+		},
+		{
+			"path": "D:\\Mis Documentos\\GitHub\\CursadaLab4"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
