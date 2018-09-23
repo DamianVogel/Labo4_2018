@@ -1,3 +1,8 @@
+info gral: https://rubensa.wordpress.com/2017/10/24/understanding-angular-modules-ngmodule-and-their-scopes/
+
+
+
+
 TP:
     -CORREGIR JUEGOS.
         -Velocidad Aritmetica OK.
@@ -12,6 +17,7 @@ TP:
         -CONTROLAR DESDE EL CODIGO COMO MENU-CARD
         info: https://github.com/angular-schule/angular-cli-ghpages   
         info: https://academia-binaria.com/paginas-y-rutas-angular-spa/
+        
     
     -SERVICIOS
     
@@ -25,6 +31,7 @@ TP:
 PRACTICAR:
     -RUTEAR
     -INPUT OUTPUT
+        -Pedir a alguien github
     -SERVICIOS
     -NGMODEL <- para que sirve
     -NGFOR <- para que sirve
@@ -68,6 +75,13 @@ PRACTICAR:
     
     -EN LOS COMPONENTES nombredelcomponent.component.html PARA LINKEAR A OTRO COMPONENTE SE UTILIZA routerLink DENTRO DEL TAG:
         <a routerLink='/pruebaRuteo'> Link </a>
+
+¿COMO UTILIZAR INPUT / OUTPUT?
+    -IMPORTAR EN CADA COMPONENTE Input 
+        import { Component, OnInit, Input } from '@angular/core';
+        
+
+
 
 
 ¿COMO REALIZAR SERVICIOS?
@@ -121,8 +135,24 @@ PRACTICAR:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ANOTACIONES
-20/09
+    20/09
     AJAX
     
     llamada asincronada
