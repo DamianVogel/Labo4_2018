@@ -10,6 +10,8 @@ TP:
         -Anagrama.
         -Piedra Papel y Tijeta.
         -Juego Propio.
+            ->Probar logica de juego un poco mas.
+            ->Probar Snackbar para mensajes emergentes.
         -TA TE TI.
 
     -LOGICA DE JUEGO.
