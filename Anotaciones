@@ -20,7 +20,8 @@ TP:
         -CONTROLAR DESDE EL CODIGO COMO MENU-CARD
         info: https://github.com/angular-schule/angular-cli-ghpages   
         info: https://academia-binaria.com/paginas-y-rutas-angular-spa/
-        
+        -PARA PASAR A PRODUCCION.
+            ng build --prod --base-href https://damianvogel.github.io/TP_LAV4_2017/    
     
     -SERVICIOS
     
@@ -82,7 +83,6 @@ PRACTICAR:
 ¿COMO UTILIZAR INPUT / OUTPUT?
     -IMPORTAR EN CADA COMPONENTE Input 
         import { Component, OnInit, Input } from '@angular/core';
-        
 
 
 
