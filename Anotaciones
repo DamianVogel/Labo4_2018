@@ -1,18 +1,11 @@
 info gral: https://rubensa.wordpress.com/2017/10/24/understanding-angular-modules-ngmodule-and-their-scopes/
 
-
-
-SIMULACRO DE PARCIAL
-    -PROBAR INPUT Y OUTPUT
-        -HACE NUEVOS COMPONENTES QUE UTILICEN EMITTERS
-
-
-    SERVICIOS:
-        -PREPARAR XAMPP
-        -POSTMAN
-        -BD
-        
-
+PRUEBAS GENERALES:
+    -Probar componentes en un mismo componentes
+        HTML: 
+                componente1 emitter
+                componente2 toma evento de componente1
+                componente3 toma evento de componente1
 
 
 
