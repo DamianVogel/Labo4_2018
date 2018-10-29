@@ -26,6 +26,9 @@ MOZO DA DE ALTA EL PEDIDO
     -SUBIDO A LA WEB
     -REGISTRO
     -CAPTCHA EN REGISTRO
+        -Chequear si la extension sqllite esta activada
+        https://parzibyte.me/blog/2018/02/07/habilitar-extension-sqlite3-php/
+        https://www.npmjs.com/package/angular-captcha
 
 8/11:
     -GENERAR EXCEL Y PDF
