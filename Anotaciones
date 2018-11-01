@@ -2,8 +2,6 @@ TP LA COMANDA
 GITHUB TP_LAB4_2C_2018 -> FORK
 
 
-
-
 ERROR MATERIAL
 https://stackoverflow.com/questions/52968879/angular-platform-browser-platform-browser-has-no-exported-member-hammerloade
 
@@ -11,6 +9,26 @@ Actualizar Cli / core / material
 $ ng update @angular/cli
 $ ng update @angular/core
 $ ng update @angular/material
+
+
+COSAS PARA HACER:
+    -PERFILES
+        -ADMIN
+        -MOZO
+        -BARMAN
+        -CHEF
+        -CLIENTE
+    
+    -REGISTRO
+        -CAPTCHA
+    
+    
+
+
+
+
+
+
 
 
 
