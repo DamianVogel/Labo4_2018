@@ -1,6 +1,9 @@
 TP LA COMANDA
 GITHUB TP_LAB4_2C_2018 -> FORK
 
+
+
+
 ERROR MATERIAL
 https://stackoverflow.com/questions/52968879/angular-platform-browser-platform-browser-has-no-exported-member-hammerloade
 
@@ -33,6 +36,7 @@ MOZO DA DE ALTA EL PEDIDO
         -Chequear si la extension sqllite esta activada
         https://parzibyte.me/blog/2018/02/07/habilitar-extension-sqlite3-php/
         https://www.npmjs.com/package/angular-captcha
+        https://captcha.com/angular-captcha.html#angular:php-server-side-validation
 
 8/11:
     -GENERAR EXCEL Y PDF
