@@ -1,6 +1,12 @@
 TP LA COMANDA
 GITHUB TP_LAB4_2C_2018 -> FORK
 
+para hacer csv
+    https://www.npmjs.com/package/angular2-csv
+highcharts
+    https://www.highcharts.com/demo/column-parsed
+
+
 
 ERROR MATERIAL
 https://stackoverflow.com/questions/52968879/angular-platform-browser-platform-browser-has-no-exported-member-hammerloade
@@ -22,7 +28,7 @@ COSAS PARA HACER:
     -REGISTRO
         -CAPTCHA
     
-    
+
 
 
 
