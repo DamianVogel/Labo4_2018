@@ -108,14 +108,7 @@ JWT.io
 
 CAMBIAR TIPOGRAFIA DEL TP Y SABER DONDE.
 
--SALA DE JUEGOS COMPLETA
--CON LOGIN JWT Y SUBIR FOTO
-
--JWT
--SUBIR ARCHIVOS
-
-
-SEMANA QUE VIENE EL TRABAJO FINAL
+-
 
 
 payload ??
@@ -136,51 +129,10 @@ fileupload en angular   -ngprime
 
 
 
-PRUEBAS GENERALES:
-    -Probar componentes en un mismo componentes
-        HTML: 
-                componente1 emitter
-                componente2 toma evento de componente1
-                componente3 toma evento de componente1
 
 
 
-TP:
-    -CORREGIR JUEGOS.
-        -Velocidad Aritmetica OK.
-        -Adivina el numero OK.
-        -Anagrama.
-        -Piedra Papel y Tijeta.
-        -Juego Propio.
-            ->Probar logica de juego un poco mas.
-            ->Probar Snackbar para mensajes emergentes.
-        -TA TE TI.
 
-    -LOGICA DE JUEGO.
-    -LOGIN
-    -PROBAR RUTEO EN PROD.
-        -CONTROLAR DESDE EL CODIGO COMO MENU-CARD
-        info: https://github.com/angular-schule/angular-cli-ghpages   
-        info: https://academia-binaria.com/paginas-y-rutas-angular-spa/
-        -PARA PASAR A PRODUCCION.
-            ng build --prod --base-href https://damianvogel.github.io/TP_LAV4_2017/    
-    
-    -SERVICIOS
-    
-    -BACK END / LOCAL STORAGE
-    
-    -VENTANAS MODALES
-    
-    -LIMPIAR console.logs
-
-
-PRACTICAR:
-    -RUTEAR
-    -INPUT OUTPUT
-        -Pedir a alguien github
-    -SERVICIOS
-    -NGMODEL <- para que sirve
-    -NGFOR <- para que sirve
 
 
 ¿COMO RUTEAR?
@@ -268,33 +220,14 @@ PRACTICAR:
         ){}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+COSAS PARA APREDER:
+    -SERVICIOS QUE MUESTREN SPINNER MIENTRAS CARGAN
+    -PETICIONES ASINCRONICAS
+    -TOKEN EN HEADER
+    -DISEÑO
+        -html
+        -class
+    -TERMINAR CURSO DE ANGULAR
 
 ANOTACIONES
     20/09
@@ -319,11 +252,7 @@ Concepto
     SERVICIO 2 APUNTA A LA FUNCION
     SERVICIO 3 APUNTA A OTRA FUNCION
 
-TEMAS PARA EL PRIMER PARCIAL
-    INPUT OUTPUT
-    ABM
-    SERVICIO
-    API rest
+
 
 
 
