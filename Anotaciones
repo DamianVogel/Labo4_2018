@@ -29,23 +29,11 @@ COSAS PARA HACER:
         -CAPTCHA
     
 
-
-
-
-
-
-
-
-
-
 MOZO DA DE ALTA EL PEDIDO
     -PLATO 
     -BEBIDA
 
     LOS PLATOS DEBEN ASIGNARSE AUTOMATICAMENTE A LOS RESPONSABLES
-
-
-
 
 25/10: 
     -LOGIN   
@@ -53,15 +41,11 @@ MOZO DA DE ALTA EL PEDIDO
         -FILTRAR PEDIDOS DESDE EL SERVICIO (FILTER)
     -PANTALLAS
 
+
 01/11:
     -SUBIDO A LA WEB
     -REGISTRO
-    -CAPTCHA EN REGISTRO
-        -Chequear si la extension sqllite esta activada
-        https://parzibyte.me/blog/2018/02/07/habilitar-extension-sqlite3-php/
-        https://www.npmjs.com/package/angular-captcha
-        https://captcha.com/angular-captcha.html#angular:php-server-side-validation
-
+    
 8/11:
     -GENERAR EXCEL Y PDF
 
