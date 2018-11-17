@@ -6,6 +6,11 @@ para hacer csv
 highcharts
     https://www.highcharts.com/demo/column-parsed
 
+NO TIENE QUE FUNCIONAR TODAS LAS ALTAS
+ ALTA DE UN PLATO
+ LISTADOS
+ 
+
 
 
 ERROR MATERIAL
@@ -29,23 +34,11 @@ COSAS PARA HACER:
         -CAPTCHA
     
 
-
-
-
-
-
-
-
-
-
 MOZO DA DE ALTA EL PEDIDO
     -PLATO 
     -BEBIDA
 
     LOS PLATOS DEBEN ASIGNARSE AUTOMATICAMENTE A LOS RESPONSABLES
-
-
-
 
 25/10: 
     -LOGIN   
@@ -53,15 +46,11 @@ MOZO DA DE ALTA EL PEDIDO
         -FILTRAR PEDIDOS DESDE EL SERVICIO (FILTER)
     -PANTALLAS
 
+
 01/11:
     -SUBIDO A LA WEB
     -REGISTRO
-    -CAPTCHA EN REGISTRO
-        -Chequear si la extension sqllite esta activada
-        https://parzibyte.me/blog/2018/02/07/habilitar-extension-sqlite3-php/
-        https://www.npmjs.com/package/angular-captcha
-        https://captcha.com/angular-captcha.html#angular:php-server-side-validation
-
+    
 8/11:
     -GENERAR EXCEL Y PDF
 
@@ -96,7 +85,7 @@ ANOTACIONES:
 
 
 
-info gral: https://rubensa.wordpress.com/2017/10/24/understanding-angular-modules-ngmodule-and-their-scopes/
+
 
 JWT-JQUERY-APIREST-TypeScript-PHP. REPOSITORIO DE OCTAVIO.
 
@@ -104,11 +93,7 @@ ANGULAR-fileupload
 
 JWT.io
 
-25-10
 
-CAMBIAR TIPOGRAFIA DEL TP Y SABER DONDE.
-
--
 
 
 payload ??
